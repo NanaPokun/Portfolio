@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("/denis-pavlovic-NVu_zR3-aQQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: white;
+  position: relative;
+}
+.container {
+  font-family: "Montserrat", sans-serif;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: #022853; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  overflow: auto;
+  width: 100%;
+  float: left;
+}
+li {
+  display: inline-block;
+  padding: 8px 10px;
+}
+li a {
+  text-decoration: none;
+  color: white;
+  float: left;
+  padding: 12px;
+  font-size: 1.25rem;
+  width: 25%;
+  text-align: center;
+}
+a:active {
+  color: rgb(2, 79, 129);
+}
+.main-section {
+  position: absolute;
+}
+.copyright {
+  position: fixed;
+  bottom: 0;
+  left: 40%;
+  display: inline;
+  font-size: 1rem;
+}
+.main-section h1 {
+  font-size: 3.5rem;
+  position: absolute;
+  display: inline-block;
+  padding: 10px;
+  border: 5px solid white;
+  /* border-radius: 40%; */
+  left: 87%;
+}
+h2 {
+  position: absolute;
+  display: inline-block;
+  left: 10%;
+  top: 500px;
+  font-size: 2rem;
+}
+body p {
+  display: inline-block;
+  position: relative;
+  top: 535px;
+  left: 10%;
+  font-size: 1rem;
+}
+
+/* For Mobile */
+@media screen and (max-width: 540px) {
+  .container {
+    font-size: 20%;
+  }
+}
+
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+  .container {
+    font-size: 80%;
+  }
+}
+/* @media screen and (max-width: 100px) {
+  .navbar a {
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+
+/* nav ul {
+  list-style-type: none;
+  border: 2px solid #00ffff;
+  background-color: bisque;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  width: 100%;
+}
+li {
+  text-align: center;
+  margin: 8px;
+  padding: 2px 4px;
+  border: chocolate;
+  border-radius: 20px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 100px;
+}
+
+li a:hover {
+  background-color: rgb(235, 148, 148);
+}
+.active {
+  background-color: rgb(231, 186, 102);
+  font-family: Arial, Helvetica, sans-serif;
+} */
